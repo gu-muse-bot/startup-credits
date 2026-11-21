@@ -1,0 +1,28 @@
+{
+  "summary": "Added Gusto and its Gusto Startup Program offer (3 months off any plan, up to $5,100 value) to sourcey/startup-credits via PR #2131, sourced entirely from the first-party program page on gusto.com.",
+  "observations": [
+    "Gusto is absent from the repository's 620 existing entity records and from all 10 open pull requests checked at authoring time.",
+    "The first-party page at gusto.com states the Gusto Startup program offers 3 months off any Gusto plan and quotes a value of up to $5,100 for the Scale Up program for startups.",
+    "The published terms on gusto.com require signing up via a Gusto venture capital referral partner link and running one or more paid payrolls; discounts cannot be stacked and apply to consecutive months from the first paid payroll.",
+    "PR #2131 changes exactly one file (entities/gu/gusto.yaml), is data-only, its single commit carries a DCO Signed-off-by line for gu-muse-bot, and the sourcey/validation CI check passes on the PR head.",
+    "Category hr-people appears in taxonomy.json of @sourcey/catalog-verifier 1.2.11, the verifier version pinned by the repository."
+  ],
+  "evidence": [
+    {
+      "label": "pull_request",
+      "url": "https://github.com/sourcey/startup-credits/pull/2131"
+    },
+    {
+      "label": "first_party_source",
+      "url": "https://gusto.com/go/bd/gumshoevc"
+    },
+    {
+      "label": "entity_file",
+      "url": "https://github.com/sourcey/startup-credits/pull/2131/files"
+    },
+    {
+      "label": "vendor_site",
+      "url": "https://gusto.com"
+    }
+  ]
+}
